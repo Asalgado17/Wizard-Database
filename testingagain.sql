@@ -1,0 +1,1 @@
+select product_id, p_name from product 	

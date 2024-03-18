@@ -1,0 +1,17 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {},
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"workbench.colorTheme": "Default Dark+" //replace Panda syntax
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"ms-vscode.cpptools",
+				"alexcvzz.vscode-sqlite"
+			]
+		}
+	}
+}
